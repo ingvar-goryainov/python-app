@@ -220,7 +220,7 @@ docker push vnp79/demo:v0
 ```  
 kubectl create deployment demo --image=vnp79/demo-slim:v0 --dry-run -oyaml > demo.yaml  
 ```  
-<img src=".yaml.png/" alt="demo.yaml">
+<img src="./yaml.png/" alt="demo.yaml">
 
 * The deployment requires 3 replicas, “RollingUpdate” strategy. Emulate the “RollingUpdate” strategy by updating docker image. Provide screenshots. Define the liveness and readiness probes to /health endpoint and 8080 port, resources(requests/limits)   
 
