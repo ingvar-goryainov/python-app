@@ -1,0 +1,9 @@
+{
+  "name": "Python application",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ingvar-goryainov/python-app.git"
+  },
+  "homepage": "https://github.com/ingvar-goryainov/python-app/blob/main/README.md"
+}
